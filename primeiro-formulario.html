@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="8">
+        <title> Meu Primeiro Formulário </title>
+    </head>
+
+    <body>
+        <h1> Formulário Teste </h1>
+        <p> Responda o formulário a seguir:</p>
+        <!-- Definindo Texts --->
+        <form action="/action.page" method="post">
+            <label for="nome">Nome:</label>
+            <input type="texto" id="nome" name="nome"><br><br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="texto" id="sobrenome" name="sobrenome"><br><br>
+            <label for="endereco">Endereço:</label>
+            <input type="texto" id="endereco" name="endereco"><br><br>
+            <label for="senha">Senha:</label>
+            <input type="texto" id="senha" name="senha"><br><br>
+
+           <!-- Definindo uma drop-down list para ESTADOS --->
+           <label for="estado">Estado:</label><br><br>
+            <select id="estado" name="estado"><br><br>
+                <option value="Acre">AC</option>
+                <option value="Alagoas">AL</option>
+                <option value="Amapá">AP</option>
+                <option value="Amazonas">AM</option>
+                <option value="Bahia">BA</option>
+                <option value="Ceará">CE</option>
+                <option value="Distrito Federal">DF</option>
+                <option value="Espírito Santo">ES</option>
+                <option value="Goiás">GO</option>
+                <option value="Maranhão">MA</option>
+                <option value="Mato Grosso">MT</option>
+                <option value="Mato Grosso do Sul">MS</option>
+                <option value="Minas Gerais">MG</option>
+                <option value="Pará">PA</option>
+                <option value="Paraíba">PB</option>
+                <option value="Paraná">PR</option>
+                <option value="Piauí">PI</option>
+                <option value="Rio de Janeiro">RJ</option>
+                <option value="Rio Grande do Norte">RN</option>
+                <option value="Rio Grande do Sul">RS</option>
+                <option value="Rondônia">RO</option>
+                <option value="Roraima">RR</option>
+                <option value="Santa Catarina">SC</option>
+                <option value="São Paulo">SP</option>
+                <option value="Sergipe">SE</option>
+                <option value="Tocantins">TO</option>
+            </select>
+
+            <!-- Definindo um Radio Button para GENERO--->
+            <br><br><label for="genero">Gênero:</label>
+            <br><br>
+                <input type="radio" name="Fem" value="Feminino">Feminino<br>
+                <input type="radio" name="Masc" value="Masculino">Masculino<br>
+                <input type="radio" name="NB" value="Não Binário">Não Binário<br>
+                <input type="radio" name="PND" value="Prefiro Não Dizer">Prefiro Não Dizer<br>
+            </form>
+            
+            <input type="submit" value="Submit">           
+
+     </body>
+</html>
+
